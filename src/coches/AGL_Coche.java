@@ -7,4 +7,5 @@ public class AGL_Coche {
  	private double VelocidadMedia;
  	private String TipoCombustible;
  	private double Consumo;
+	
 }
