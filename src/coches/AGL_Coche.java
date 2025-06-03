@@ -1,17 +1,17 @@
 package coches;
 
-public class AGL_Moto {
+public class AGL_Coche {
 	private String Matricula;
 	private String Modelo;
 	private int NumeroPlazas;
 	private double VelocidadMedia;
 	private String TipoCombustible;
 	private double Consumo;
-	public AGL_Moto() {
+	public AGL_Coche() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public AGL_Moto(String matricula, String modelo, int numeroPlazas, double velocidadMedia, String tipoCombustible,
+	public AGL_Coche(String matricula, String modelo, int numeroPlazas, double velocidadMedia, String tipoCombustible,
 			double consumo) {
 		super();
 		Matricula = matricula;
@@ -59,10 +59,13 @@ public class AGL_Moto {
 	}
 	@Override
 	public String toString() {
-		return "AGL_Moto [Matricula=" + Matricula + ", Modelo=" + Modelo + ", NumeroPlazas=" + NumeroPlazas
+		return "AGL_Coche [Matricula=" + Matricula + ", Modelo=" + Modelo + ", NumeroPlazas=" + NumeroPlazas
 				+ ", VelocidadMedia=" + VelocidadMedia + ", TipoCombustible=" + TipoCombustible + ", Consumo=" + Consumo
 				+ "]";
 	}
+	
+	
+	}
 
 
-}
+	
